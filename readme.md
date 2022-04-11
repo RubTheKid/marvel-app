@@ -11,9 +11,9 @@ MongoDB.
 Na data de hoje (11/04), esta é a parte que não está funcional, por conta da falta de intimidade com o funcionamento de bancos NoSQL.
 
 ## Como instalar
-Baixe os arquivos, e instale as dependências com npm install (tanto na pasta client, quanto server).
+Baixe os arquivos, e instale as dependências com `npm install` (tanto na pasta client, quanto server).
 
 ### Como executar
-Após instalar as dependências, na pasta client, execute npm start.
-Já na pasta server, acesse a pasta src (cd src) e execute `node index.js`
+Após instalar as dependências, na pasta client, execute `npm start`.
+Já na pasta server, acesse a pasta src (`cd src`) e execute `node index.js`
 
