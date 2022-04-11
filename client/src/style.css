@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: 'ComicNeue-Bold';
+    src: local(ComicNeue-Bold), url('./fonts/ComicNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ComicNeue-Bold',Arial, Helvetica, sans-serif;
+    /* background-image: url("\assets\background.webp"); */
+  }
+  
+
+.card {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:250px;
+    height:500px;
+    margin:50px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+
+img {
+    border-radius: 5px;
+    width:240px;
+    height:250px;
+}
+
+.image{
+    margin: 10px,10px,10px,10px;
+    padding: 10px,10px,10px,10px;
+}
+
+.name {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    height:40px;
+}
+.id{
+    display: none;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bio{
+    height:150px;
+    padding: 5px 10px 5px 10px;
+    overflow:auto;
+}
+
+.btns{
+   position: relative; 
+   text-align: center;
+}
+
+.voteibtn{
+    appearance:none;
+    border-radius:3px;
+    border:0;
+    background:#fff;
+    padding:15px 12px 15px 15px;
+    font:bold 13px bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#881d12;
+    box-shadow:0 1px 1px rgba(0,0,0,.2);
+    outline:none;
+    position:relative;
+    transition: all .3s ease-out; 
+    cursor:pointer;
+    overflow:hidden;
+    position:bottom;
+    width:200px;
+}
+
+.vote-cnt{
+    border-radius:3px;
+    border:0;
+    background:#fff;
+    padding:15px 12px 15px 15px;
+    font: bold 15px bold;
+    color:#881d12;
+    letter-spacing:1px;
+    box-shadow:0 1px 1px rgba(0,0,0,.2);
+    outline:none;
+    position:relative;
+    transition: all .3s ease-out; 
+    overflow:hidden;
+    position:bottom;
+    width:300px;
+}
+  
