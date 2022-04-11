@@ -1,0 +1,12 @@
+## under construction
+
+# Marvel-React-App
+Este aplicativo foi criado para a resolução de um desafio fullstack, o qual visa criar uma página de personagens da Marvel,
+consumindo sua API para mostrá-los na página, para que o usuário possa votar em seu personagem favorito.
+A aplicação front-end foi criada com React, e o back-end, com Node e express.
+Já a computação dos votos se dá por meio do MongoDB.
+
+## Instalação
+Utilize NPM install para instalar as dependências, tanto da pasta client, quanto da pasta server.
+
+##
