@@ -18,5 +18,6 @@ Já na pasta server, acesse a pasta src (`cd src`) e execute `node index.js`
 
 #### To-Do
 
-Front-end: Request, style, background
-Back-end: Routes, mongodb
+`Front-end: Request, style, background`
+
+`Back-end: Routes, mongodb`
